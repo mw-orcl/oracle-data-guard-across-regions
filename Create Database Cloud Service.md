@@ -1,6 +1,4 @@
-Create your primary database with the Oracle Database Cloud Service.
-
-Step 1.
+# Create your primary database with the Oracle Database Cloud Service.
 
 Select the menu Oracle Databases then Bare Metal, VM, and Exadata.
 
@@ -20,11 +18,11 @@ Data Guard supports RAC databases, but we'll use a single instance database in t
 
 Standard Edition does not support Data Guard, select the other editions.
 
-![image-20210121184635385](C:\Users\mwan.ORADEV\AppData\Roaming\Typora\typora-user-images\image-20210121184635385.png)
+![image-20210121184635385](images\image-20210121184635385.png)
 
 
 
-For faster provisioning, select Logical Volume Manager.
+For faster provisioning for this lab, select Logical Volume Manager.
 
 Use the default storage size.
 
@@ -32,7 +30,7 @@ Add your SSH public key.
 
 
 
-![image-20210121184848646](C:\Users\mwan.ORADEV\AppData\Roaming\Typora\typora-user-images\image-20210121184848646.png)
+![image-20210121184848646](images\image-20210121184848646.png)
 
 
 
@@ -48,7 +46,7 @@ Click Next
 
 
 
-![image-20210121185143404](C:\Users\mwan.ORADEV\AppData\Roaming\Typora\typora-user-images\image-20210121185143404.png)
+![image-20210121185143404](images\image-20210121185143404.png)
 
 Provide a database name, must be 8 characters or less.
 
@@ -60,4 +58,4 @@ Click Create DB System.  Your Oracle Database Cloud Service will be created in a
 
 
 
-![image-20210121185604333](C:\Users\mwan.ORADEV\AppData\Roaming\Typora\typora-user-images\image-20210121185604333.png)
+![image-20210121185604333](images\image-20210121185604333.png)
