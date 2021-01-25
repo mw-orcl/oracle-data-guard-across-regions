@@ -5,7 +5,8 @@
             "title": "Introduction",
             "description": "Labs that follow the introduction are numbered, starting with Lab 1",
             "filename": "./introduction.md"
-        },       {
+        },       
+		{
             "title": "Lab 1: Create your VCN",
             "description": "Labs that follow the introduction are numbered, starting with Lab 1",
             "filename": "./lab1-create-your-vcn.md"
