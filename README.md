@@ -4,5 +4,5 @@ This simple guide shows you how to set up Oracle Data Guard between two Oracle C
 
 Estimated lab time: 30 minutes
 
-You can view the published page by clicking [here]( https://mw-orcl.github.io/oracle-data-guard-across-regions/)
+You can view the published page by clicking [here]( https://mw-orcl.github.io/oracle-data-guard-across-regions/index.html)
 
