@@ -14,5 +14,6 @@ Prerequisites
 
 - Compartment to work on
 
-
 Although the primary database will be in one region and the standby in another region, they must both be in the same compartment.  And they must both not have overlapping VCN IP address blocks.
+
+Estimated lab time:  30 minutes
