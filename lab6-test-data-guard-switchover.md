@@ -1,14 +1,13 @@
 # Test the Data Guard Switchover
 
-
-
 We will test the Data Guard configuration across regions by switching the roles of the primary and standby database.  Switchover can be used to perform maintenance of the primary database.
 
 
 
-Navigate to the Data Guard Associations of the primary database.
+1. Navigate to the Data Guard Associations of the primary database.
 
-Click the 3-dot action menu on right  and select Switchover
+2. Click the 3-dot action menu on right  and select Switchover
+
 
 The process will begin to make the standby database the primary.
 
@@ -16,7 +15,7 @@ The process will begin to make the standby database the primary.
 
 ![image-20210121222215264](images\image-20210121222215264.png?lastModify=1611298659)
 
-Enter the database password for sys when prompted.
+3. Enter the database password for sys when prompted.
 
 
 

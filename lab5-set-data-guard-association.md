@@ -6,15 +6,16 @@ Setting up Data Guard for Database Cloud Service is a simple process.  We enable
 
 Prerequisite
 
-VCN for both the primary and standby regions are created
+- VCN for both the primary and standby regions are created
 
-Database Cloud Service Enterprise Edition or higher is created
+- Database Cloud Service Enterprise Edition or higher is created
 
-DRGs and RPCs are created
+- DRGs and RPCs are created
 
-RPC connection is peered
+- RPC connection is peered
 
-Route Rules and Security List are configured for secure communication between primary and standby VCNs
+- Route Rules and Security List are configured for secure communication between primary and standby VCNs
+
 
 Navigate to your Database Cloud Service in your primary region.
 
@@ -24,17 +25,18 @@ Navigate to your Database Cloud Service in your primary region.
 
 
 
-Go to your database details page.
+1. Go to your database details page.
 
-Select your database under resources.
+2. Select your database under resources.
+
 
 
 
 ![image-20210121190255856](images\image-20210121190255856.png)
 
-Select Data Guard Associations.
+3. Select Data Guard Associations.
 
-Click Enable Data Guard for your database.
+4. Click Enable Data Guard for your database.
 
 
 
@@ -42,15 +44,15 @@ Click Enable Data Guard for your database.
 
 Data Guard is defaulted to Maximum Performance Protection Mode which means the redo log is transmitted to the standby immediately and does not wait for the standby to complete the redo apply.  It is also set the Async Transport type.  Maximum Protection mode is not available at this time.
 
-Enter a name for your peer standby database.
+5. Enter a name for your peer standby database.
 
-Enter the region of your standby.
+6. Enter the region of your standby.
 
-Enter the availability domain you want to install the standby.  Some regions only have one availability domain.
+7. Enter the availability domain you want to install the standby.  Some regions only have one availability domain.
 
-Select the shape or size of the standby database.
+8. Select the shape or size of the standby database.
 
-Click enable.
+9. Click enable.
 
 
 

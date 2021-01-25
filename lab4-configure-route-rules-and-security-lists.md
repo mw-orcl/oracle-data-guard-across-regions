@@ -6,17 +6,18 @@ Let's start on the standby side.  From your VCN hosting your standby database, s
 
 ![image-20210122202020691](images\image-20210122202020691.png)
 
-Select the private subnet route table or click Create Route Table if the private subnet route table is not there.
+1. Select the private subnet route table or click Create Route Table if the private subnet route table is not there.
 
-Click Add Route Rules 
+2. Click Add Route Rules 
 
-Select the Target Type as Dynamic Routing Gateways and select the name of the DRG gateway you created.
+3. Select the Target Type as Dynamic Routing Gateways and select the name of the DRG gateway you created.
 
-Enter the Destination CIDR Block.  The destination will be the primary region.  You can enter the CIDR block for the primary VCN or the primary private subnet CIDR block.  ie: 11.0.0.0/16.
+4. Enter the Destination CIDR Block.  The destination will be the primary region.  You can enter the CIDR block for the primary VCN or the primary private subnet CIDR block.  ie: 11.0.0.0/16.
 
-Add description if desired.
+5. Add description if desired.
 
-Click Add Route Rules to finish.
+6. Click Add Route Rules to finish.
+
 
 
 
@@ -26,45 +27,45 @@ Click Add Route Rules to finish.
 
 Now configure the security list.  
 
-Click Create Security List and name it something like Sec-List-Private-Subnet. 
+7. Click Create Security List and name it something like Sec-List-Private-Subnet. 
 
-Ensure you are in the correct compartment.
+8. Ensure you are in the correct compartment.
 
-Click Add Ingress Rule with the following:
+9. Click Add Ingress Rule with the following:
 
-Stateless is unchecked.
+10. Stateless is unchecked.
 
-Source Type is CIDR
+11. Source Type is CIDR
 
-Source CIDR is from your primary VCN or private subnet.  ie: 11.0.0.0/16 or 11.0.1.0/24.
+12. Source CIDR is from your primary VCN or private subnet.  ie: 11.0.0.0/16 or 11.0.1.0/24.
 
-IP Protocol is TCP
+13. IP Protocol is TCP
 
-Source Port Range is All
+14. Source Port Range is All
 
-Destination Port Range is 1521 for the database.
+15. Destination Port Range is 1521 for the database.
 
-Add a description if desired.
+16. Add a description if desired.
 
 ![image-20210122200918911](images\image-20210122200918911.png)
 
 
 
-Add an Egress Rule for outbound communication to the standby.
+17. Add an Egress Rule for outbound communication to the standby.
 
-Stateless is unchecked.
+18. Stateless is unchecked.
 
-Destination Type is CIDR.
+19. Destination Type is CIDR.
 
-Destination CIDR is your primary VCN or private subnet CIDR Block.  ie: 11.0.0.0/16 or 11.0.1.0/24.
+20. Destination CIDR is your primary VCN or private subnet CIDR Block.  ie: 11.0.0.0/16 or 11.0.1.0/24.
 
-IP Protocol is TCP
+21. IP Protocol is TCP
 
-Source Port Range is All
+22. Source Port Range is All
 
-Destination Port Range is 1521
+23. Destination Port Range is 1521
 
-Click Create Security List
+24. Click Create Security List
 
 ![image-20210122201351067](images\image-20210122201351067.png)
 
