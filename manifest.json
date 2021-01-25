@@ -4,27 +4,27 @@
         {
             "title": "Lab 1: Create your VCN",
             "description": "Labs that follow the introduction are numbered, starting with Lab 1",
-            "filename": "create-your-vcn.md"
+            "filename": "./lab1-create-your-vcn.md"
         },
         {
             "title": "Lab 2: Create the Oracle Database Cloud Service",
-            "filename": "create-database-cloud.md"
+            "filename": "./lab2-create-database-cloud-service.md"
         },
         {
-            "title": "Lab 3: Setup a Non-Shard Database Application",
-            "filename": "../../setup-nonshard-app/setup-nonshard-app.md"
+            "title": "Lab 3: Connect the VCNs by Peering",
+            "filename": "./lab3-peer-the-vcns.md"
         },
         {
-            "title": "Lab 4: Migrate to Sharded Database",
-            "filename": "../../migrate-to-sdb/migrate-to-sdb.md"
+            "title": "Lab 4: Configure Route Rules and Security Lists",
+            "filename": "./lab4-configure-route-rules-and-security-lists.md"
         },
         {
-            "title": "Lab 5: Database Request Rout to Shard",
-            "filename": "../../db-request-rout/db-request-rout.md"
+            "title": "Lab 5: Set Data Guard Association",
+            "filename": "./lab5-set-data-guard-association.md"
         },
         {
-            "title": "Lab 6: Sharded Database Elastic Scaling",
-            "filename": "../../elastic-scaling/elastic-scaling.md"
+            "title": "Lab 6: Test Data Guard Switchover",
+            "filename": "./lab6-test-data-guard-switchover.md"
         }
     ]
 }
