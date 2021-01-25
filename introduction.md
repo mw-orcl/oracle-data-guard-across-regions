@@ -17,3 +17,21 @@ Prerequisites
 Although the primary database will be in one region and the standby in another region, they must both be in the same compartment.  And they must both not have overlapping VCN IP address blocks.
 
 Estimated lab time:  30 minutes
+
+
+
+## Learn More
+
+[Using Oracle Data Guard](https://docs.oracle.com/en-us/iaas/Content/Database/Tasks/usingdataguard.htm)
+
+[OCI Remote Peering](https://docs.oracle.com/en-us/iaas/Content/Network/Tasks/remoteVCNpeering.htm)
+
+
+
+## Acknowledgements
+
+- **Author** - Milton Wan, Database Product Management, January 2021
+- **Contributors** -
+- **Last Updated By/Date** - Milton Wan, Database Product Management, January 24, 2020
+- **Workshop Expiry Date** - January 2022
+
