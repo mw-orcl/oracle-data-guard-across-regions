@@ -22,9 +22,9 @@ Estimated lab time:  30 minutes
 
 ## Learn More
 
-[Using Oracle Data Guard](https://docs.oracle.com/en-us/iaas/Content/Database/Tasks/usingdataguard.htm)
+- [Using Oracle Data Guard](https://docs.oracle.com/en-us/iaas/Content/Database/Tasks/usingdataguard.htm)
 
-[OCI Remote Peering](https://docs.oracle.com/en-us/iaas/Content/Network/Tasks/remoteVCNpeering.htm)
+- [OCI Remote Peering](https://docs.oracle.com/en-us/iaas/Content/Network/Tasks/remoteVCNpeering.htm)
 
 
 
